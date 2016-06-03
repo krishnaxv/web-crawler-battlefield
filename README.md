@@ -10,7 +10,7 @@
 
 **How to systematically browse the web?**
 
-To understand this, let's understand, "What is Web?".
+To understand this, let's understand, *"What is Web?"*.
 
 > `Wikipedia` Web is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server.
 
@@ -60,7 +60,7 @@ html_doc = '''
         </header>
         <section>
           <a href="https://google.com">Google</a>
-          <a href="https://teslamotors.com">Tela Motors</a>
+          <a href="https://teslamotors.com">Tesla Motors</a>
         </section>
         <footer>
           <p>This is the footer of the Document.</p>
