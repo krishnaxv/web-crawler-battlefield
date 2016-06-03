@@ -5,11 +5,11 @@ from bs4 import BeautifulSoup
 # Seed URL to crawl
 seed_url = 'http://www.flipkart.com/search?q=mobiles&as=off&as-show=on&otracker=start'
 
-# # Get source code of Seed URL
+# Get source code of Seed URL
 source_code = requests.get(seed_url)
 html_doc = source_code.text
 
-# # Create object of `BeautifulSoup`
+# Create object of `BeautifulSoup`
 soup = BeautifulSoup(html_doc, 'lxml')
 page_description = soup.find('meta', attrs={ "name": "Description" })
 
